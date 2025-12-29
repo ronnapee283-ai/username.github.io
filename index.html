@@ -1,0 +1,50 @@
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#00c6ff,#003cff);
+  font-family:Arial,sans-serif;
+}
+
+.panel{
+  width:300px;
+  background:rgba(0,0,0,0.35);
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 0 20px #00f;
+  color:#fff;
+  text-align:center;
+}
+
+h1{
+  margin-bottom:15px;
+}
+
+.menu button{
+  width:100%;
+  padding:12px;
+  margin:7px 0;
+  border:none;
+  border-radius:10px;
+  background:#00eaff;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.menu button.active{
+  background:#00ff88;
+}
+
+#toast{
+  position:fixed;
+  bottom:30px;
+  background:#000;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:20px;
+  opacity:0;
+  transition:0.3s;
+}
